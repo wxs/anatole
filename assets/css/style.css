@@ -995,3 +995,49 @@ print {
         width: 25%;
     }
 }
+
+
+/*** Our customized styles ***/
+.fad-custom {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+}
+html[data-theme='dark'] .fad-custom {
+    /* Filters computed at https://codepen.io/sosuke/pen/Pjoqqp to filter black-background
+    icons Cheryl provided */
+    filter: invert(81%) sepia(8%) saturate(233%) hue-rotate(201deg) brightness(85%) contrast(82%);
+}
+
+html[data-theme='dark'] .fad-custom:hover {
+    /* Filters computed at https://codepen.io/sosuke/pen/Pjoqqp to filter black-background
+    icons Cheryl provided */
+    filter: invert(36%) sepia(12%) saturate(3030%) hue-rotate(177deg) brightness(93%) contrast(91%);
+}
+
+html[data-theme='light'] .fad-custom {
+    /* Filters computed at https://codepen.io/sosuke/pen/Pjoqqp to filter black-background
+    icons Cheryl provided */
+    filter: invert(38%) sepia(0%) saturate(2349%) hue-rotate(198deg) brightness(93%) contrast(90%);
+}
+
+html[data-theme='light'] .fad-custom:hover {
+    /* Filters computed at https://codepen.io/sosuke/pen/Pjoqqp to filter black-background
+    icons Cheryl provided */
+    filter: invert(36%) sepia(12%) saturate(3030%) hue-rotate(177deg) brightness(93%) contrast(91%);
+}
+
+
+.fad-custom.fad-twitter {
+  background-image: url('/images/twitter-logo.png')
+}
+.fad-custom.fad-arena {
+  background-image: url('/images/arena-logo.png')
+}
+.fad-custom.fad-fad {
+  background-image: url('/images/folie-a-deux.png')
+}
+.fad-custom.fad-email {
+  background-image: url('/images/email-logo.png')
+}

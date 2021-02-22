@@ -1138,10 +1138,12 @@ html[data-theme='light'] .fad-custom:hover {
   background-image: url('/images/email-logo.png')
 }
 
-.float-right {
-  float: right;
-}
+@media (min-width: 700px){
+  .float-right {
+    float: right;
+  }
 
-.float-left {
-  float: left;
+  .float-left {
+    float: left;
+  }
 }

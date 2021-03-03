@@ -49,9 +49,9 @@ body {
 }
 
 p {
-    line-height: 1.9em;
+    line-height: 1.5em;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12pt;
 }
 
 a {
@@ -1148,4 +1148,12 @@ html[data-theme='light'] .fad-custom:hover {
   .float-left {
     float: left;
   }
+}
+
+em {
+  letter-spacing: 0.05em;
+}
+
+li {
+  line-height: 1.5em;
 }

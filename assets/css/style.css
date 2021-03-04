@@ -379,7 +379,7 @@ a:active {
 .post .post-content a {
     text-decoration: none;
     letter-spacing: 1px;
-    color: #2660ab;
+    color: #0297b3;
 }
 
 .post .post-content a:hover {
@@ -587,7 +587,7 @@ a:active {
 
 .list-with-title .listing-title {
     font-size: 24px;
-    color: #666666;
+    color: --heading-color;
     font-weight: 600;
     line-height: 2.2em;
 }
@@ -606,7 +606,7 @@ a:active {
 }
 
 .list-with-title .listing .listing-post a {
-    color: #8F8F8F;
+    color: --body-color;
 }
 
 .list-with-title .listing .listing-post a:hover {

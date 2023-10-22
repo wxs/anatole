@@ -1,0 +1,78 @@
+/*** Our customized styles ***/
+body {
+  font-family: Garamond, serif;
+}
+
+.post__content h3, .sidebar__introduction-title, #navMenu {
+  font-family: Verdana, sans-serif;
+}
+
+#navMenu {
+  font-size: 12px;
+}
+
+.nav__list-item {
+  text-transform: none;
+}
+
+.fad-custom {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+}
+.theme--dark .fad-custom {
+    /* Filters computed at https://codepen.io/sosuke/pen/Pjoqqp to filter black-background
+    icons Cheryl provided */
+    filter: invert(81%) sepia(8%) saturate(233%) hue-rotate(201deg) brightness(85%) contrast(82%);
+}
+
+.theme--dark .fad-custom:hover {
+    /* Filters computed at https://codepen.io/sosuke/pen/Pjoqqp to filter black-background
+    icons Cheryl provided */
+    filter: invert(36%) sepia(12%) saturate(3030%) hue-rotate(177deg) brightness(93%) contrast(91%);
+}
+
+.theme--light .fad-custom {
+    /* Filters computed at https://codepen.io/sosuke/pen/Pjoqqp to filter black-background
+    icons Cheryl provided */
+    filter: invert(38%) sepia(0%) saturate(2349%) hue-rotate(198deg) brightness(93%) contrast(90%);
+}
+
+.theme--light .fad-custom:hover {
+    /* Filters computed at https://codepen.io/sosuke/pen/Pjoqqp to filter black-background
+    icons Cheryl provided */
+    filter: invert(36%) sepia(12%) saturate(3030%) hue-rotate(177deg) brightness(93%) contrast(91%);
+}
+
+
+.fad-custom.fad-twitter {
+  background-image: url('/images/twitter-logo.png')
+}
+.fad-custom.fad-arena {
+  background-image: url('/images/arena-logo.png')
+}
+.fad-custom.fad-fad {
+  background-image: url('/images/folie-a-deux.png')
+}
+.fad-custom.fad-email {
+  background-image: url('/images/email-logo.png')
+}
+
+@media (min-width: 700px){
+  .float-right {
+    float: right;
+  }
+
+  .float-left {
+    float: left;
+  }
+}
+
+em {
+  letter-spacing: 0.05em;
+}
+
+li {
+  line-height: 1.5em;
+}
